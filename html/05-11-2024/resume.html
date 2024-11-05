@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noushath's Resume</title>
+    <style>
+        /* Basic Reset and Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        /* Main Container */
+        .container {
+            display: flex;
+            max-width: 210mm;
+            /* A4 width */
+            max-height: 297mm;
+            /* A4 height */
+            background-color: #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            width: 250px;
+            background-color: #4A90E2;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .sidebar h1 {
+            font-size: 1.8em;
+            margin-bottom: 5px;
+        }
+
+        .sidebar p {
+            font-size: 1em;
+            margin-bottom: 20px;
+        }
+
+        .sidebar .contact-info {
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+
+        .sidebar .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        .sidebar .contact-info a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Content Section */
+        .content {
+            padding: 30px;
+            flex: 1;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 1.5em;
+            color: #4A90E2;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .job-title,
+        .school-name {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .date {
+            font-size: 0.9em;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            margin-top: 5px;
+            color: #555;
+        }
+
+        /* Skills Section */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .skills span {
+            background-color: #e0f7fa;
+            color: #00796b;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h1>Noushath</h1>
+            <p>Full Stack Developer</p>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:nousath@mail.com">nousath@mail.com</a></p>
+                <p><strong>Phone:</strong> 900377----</p>
+                <p><strong>Location:</strong> Trichy</p>
+                <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/nousath"
+                        target="_blank">linkedin.com/in/nousath</a></p>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            <!-- Objective Section -->
+            <div class="section">
+                <h2 class="section-title">Objective</h2>
+                <p class="description">A highly skilled software developer with expertise in front-end and back-end
+                    development, seeking to leverage technical expertise in a challenging role.</p>
+            </div>
+
+            <!-- Work Experience Section -->
+            <div class="section">
+                <h2 class="section-title">Work Experience</h2>
+                <p class="job-title">Senior Software Engineer - ABC Company</p>
+                <p class="date">Jan 2021 - Present</p>
+                <p class="description">Lead a team in designing and developing scalable web applications, improving
+                    overall system performance by 30%, and mentoring junior developers.</p>
+
+                <p class="job-title">Web Developer Intern - XYZ Solutions</p>
+                <p class="date">Jun 2020 - Dec 2020</p>
+                <p class="description">Assisted in building and optimizing front-end features for client websites,
+                    enhancing loading speed by 20% and refining user experience.</p>
+            </div>
+
+            <!-- Education Section -->
+            <div class="section">
+                <h2 class="section-title">Education</h2>
+                <p class="school-name">Bachelor of Science in Computer Science</p>
+                <p class="date">University of Technology | Graduated May 2020</p>
+                <p class="description">Relevant Courses: Data Structures, Web Development, Database Management</p>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="section">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills">
+                    <span>JavaScript</span>
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>HTML & CSS</span>
+                    <span>MySQL</span>
+                    <span>MongoDB</span>
+                    <span>Git & GitHub</span>
+                    <span>Team Collaboration</span>
+                </div>
+            </div>
+
+            <!-- Additional Information Section -->
+            <div class="section">
+                <h2 class="section-title">Additional Information</h2>
+                <p class="description">Languages: English (native), Spanish (conversational)</p>
+                <p class="description">Volunteer: Code for Good Hackathon 2021</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
